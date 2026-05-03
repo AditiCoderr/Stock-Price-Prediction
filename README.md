@@ -29,9 +29,8 @@ The goal of this project is to:
 
 ---
 
-## Approach (STAR Method)
 
-### 1. Situation
+### Situation
 Stock price forecasting is complex due to:
 - High volatility
 - Non-linear dependencies
@@ -41,7 +40,7 @@ Traditional models like ARIMA struggle with such complexity.
 
 ---
 
-### 2. Task
+### Task
 Design and implement a system that:
 1. Processes historical stock data (2020–2024)
 2. Learns temporal patterns using deep learning
@@ -50,7 +49,7 @@ Design and implement a system that:
 
 ---
 
-### 3. Action
+### Action
 - Collected NIFTY 50 dataset from Kaggle
 - Filtered **RELIANCE stock data**
 - Engineered **15 technical indicators**:
