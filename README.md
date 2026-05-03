@@ -4,7 +4,7 @@
 **Stock:** RELIANCE.NS (NSE India)  
 **Framework:** TensorFlow / Keras  
 **Frontend:** Streamlit  
-**Dataset:** NIFTY 50 (Kaggle)
+**Dataset:** NIFTY 50 (Kaggle)<br>
 **Dataset Link:** https://www.kaggle.com/datasets/ujjwalrastogi0/nifty-50-latest-5-years-of-data
 
 ---
@@ -185,9 +185,10 @@ pip install -r requirements.txt
 
 # Run app
 streamlit run app.py
+```
 
-App will open at: http://localhost:8501
+**App will open at:** http://localhost:8501
 
-Disclaimer:
+**Disclaimer:**
 This project is developed for educational purposes only.
 Stock market predictions are inherently uncertain and should NOT be used for real financial decisions.
