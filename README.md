@@ -93,7 +93,8 @@ Steps:
 4. Write code for model_utils.py and app.py in VS code
 5. Run
    ```bash
-   streamlit run app.py ```
+   streamlit run app.py
+   ```
 in the VS code terminal.
 
 The files you download from google colab are: (These are important files. Hence don't skip the colab part)
