@@ -75,7 +75,7 @@ Design and implement a system that:
 
 Phase 1, phase 2, phase 3, phase 4 is done in Google colab.
 
-## Code written in Google colab: 
+** Code written in Google colab: ** <br>
 https://colab.research.google.com/drive/1LRlejxu12eRSWm5Iv9dhtd0jmAozXz1e?usp=sharing
 
 Steps:
