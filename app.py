@@ -120,7 +120,7 @@ def fetch_data(ticker, start, end):
 
 # 6. Main
 
-st.title(" Stock Price Prediction - LSTM Demo")
+st.title(" Stock Price Prediction - LSTM Model")
 st.markdown("Powered by a stacked LSTM trained on NIFTY 50 data . Built with Streamlit")
 
 if run_btn:
