@@ -1,10 +1,11 @@
 # Stock Price Prediction using LSTM
 
-**LSTM-Based Deep Learning Model | Minor Project**  
+**LSTM-Based Deep Learning Model **  
 **Stock:** RELIANCE.NS (NSE India)  
 **Framework:** TensorFlow / Keras  
 **Frontend:** Streamlit  
 **Dataset:** NIFTY 50 (Kaggle)
+**Dataset Link:** https://www.kaggle.com/datasets/ujjwalrastogi0/nifty-50-latest-5-years-of-data
 
 ---
 
@@ -72,6 +73,39 @@ Design and implement a system that:
 
 ##  Working Methodology
 
+Phase 1, phase 2, phase 3, phase 4 is done in Google colab.
+
+# Code written in Google colab:# https://colab.research.google.com/drive/1LRlejxu12eRSWm5Iv9dhtd0jmAozXz1e?usp=sharing
+
+Steps:
+1. First write code in google colab. Train model in Colab
+2. Run the download cell. i.e last cell of the colab notebook which I shared.
+
+  ```bash
+   # Run this in your Colab to download everything
+   from google.colab import files
+   files.download('lstm_stock_model.keras')
+   files.download('scaler.pkl')
+   files.download('close_scaler.pkl')
+   files.download('feature_cols.pkl')
+```
+3. Move them into VS Code project folder
+4. Write code for model_utils.py and app.py in VS code
+5. Run
+   ```bash
+   streamlit run app.py ```
+in the VS code terminal.
+
+The files you download from google colab are: (These are important files. Hence don't skip the colab part)
+
+| File| What it is|
+|------|--------|
+|lstm_stock_model.keras | The trained model |
+|caler.pkl | Memory of how all features were scaled |
+|close_scaler.pkl | Memory of how prices were scaled |
+|feature_cols.pkl | List of which features and in what order |
+
+
 ### Phase 1: Dataset Acquisition
 - Source: Kaggle (NIFTY 50 dataset)
 - Extracted RELIANCE stock data (2020–2024)
@@ -81,8 +115,6 @@ Design and implement a system that:
 - Feature engineering (15 indicators)
 - Applied MinMax Scaling
 - Created sequences using 60-day window
-
-
 ---
 
 ### Phase 3: Evaluation Metrics
@@ -108,9 +140,11 @@ Design and implement a system that:
   - Window size
 
 ---
-
-### Phase 5: Deployment
+### Phase 5:  Writing model_util.py and app.py for Deployment
+- model_utils.py = what to compute
+- app.py = what to show
 - Built using **Streamlit**
+- streamlit run app.py  <- this one command launches the entire web app
 - Features:
   - Live stock data (yfinance)
   - Interactive charts (Plotly)
@@ -120,23 +154,23 @@ Design and implement a system that:
 ---
 
 ##  Project Structure
-stock_prediction_app/
-│
-├── app.py # Streamlit UI & prediction logic
-├── model_utils.py # Data processing & helper functions
-├── requirements.txt # Dependencies
-│
-└── models/
-├── lstm_stock_model.keras
-├── scaler.pkl
-├── close_scaler.pkl
-└── feature_cols.pkl
+stock_prediction_app/<br>
+│<br>
+├── app.py # Streamlit UI & prediction logic<br>
+├── model_utils.py # Data processing & helper functions<br>
+├── requirements.txt # Dependencies<br>
+│<br>
+└── models/<br>
+├── lstm_stock_model.keras<br>
+├── scaler.pkl<br>
+├── close_scaler.pkl<br>
+└── feature_cols.pkl<br>
 
 ##  How to Run Locally
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/stock-prediction-app.git
+git clone https://github.com/AditiCoderr/Stock-Price-Prediction
 cd stock-prediction-app
 
 # Create virtual environment
