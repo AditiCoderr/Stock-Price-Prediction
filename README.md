@@ -187,7 +187,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-**App will open at:** http://localhost:8501
+**App will open at:** http://localhost:8501  after deployment
 
 **Disclaimer:**
 This project is developed for educational purposes only.
