@@ -68,7 +68,12 @@ Design and implement a system that:
 - Deployed using **Streamlit with live data (yfinance)**
 
 ---
+### Results
 
+<img width="1040" height="297" alt="image" src="https://github.com/user-attachments/assets/8b7f5243-a59a-4f96-af62-dd615d733ba9" />
+
+
+---
 
 ##  Working Methodology
 
