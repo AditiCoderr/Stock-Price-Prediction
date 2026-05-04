@@ -70,6 +70,8 @@ Design and implement a system that:
 ---
 ### Results
 
+<img width="515" height="458" alt="image" src="https://github.com/user-attachments/assets/e8780b0c-e3d1-4aed-86fb-2f823070132d" />
+
 <img width="1040" height="297" alt="image" src="https://github.com/user-attachments/assets/8b7f5243-a59a-4f96-af62-dd615d733ba9" />
 <img width="1038" height="304" alt="image" src="https://github.com/user-attachments/assets/401564ea-4f8e-4999-8962-13e160278ce0" />
 <img width="1035" height="298" alt="image" src="https://github.com/user-attachments/assets/46cab97d-ff48-44df-9f03-aa5c9d228316" />
