@@ -71,9 +71,16 @@ Design and implement a system that:
 ### Results
 
 <img width="515" height="458" alt="image" src="https://github.com/user-attachments/assets/e8780b0c-e3d1-4aed-86fb-2f823070132d" />
+Feature Correlation Matrix: Every cell shows the correlation between two features — values range from +1.0 (perfect positive correlation, dark red) to -1.0 (perfect negative correlation, dark blue). The diagonal is always 1.0 because every feature is perfectly correlated with itself.<br>
+The high correlation between Close, MA_20, MA_50 and MA_200 means these features carry redundant information. However for LSTM this is acceptable — the model learns to weight features automatically.
 
 <img width="1040" height="297" alt="image" src="https://github.com/user-attachments/assets/8b7f5243-a59a-4f96-af62-dd615d733ba9" />
+The predicted line (blue dashed) follows the actual price (gray) very closely throughout all 700 training days. The model has learned the training data well — it captures the general trend, the dips around day 300–350, and the rally from day 500 onwards.
+
 <img width="1038" height="304" alt="image" src="https://github.com/user-attachments/assets/401564ea-4f8e-4999-8962-13e160278ce0" />
+This is where the problem is visible. The actual price (blue) moves between ₹1300–₹1600 with sharp ups and downs. The predicted line (orange) is too smooth — it rises slowly from ₹1300 to ₹1450 but completely misses the sharp spike to ₹1600 around day 120.
+This tells you the model is underfitting on validation data — it learned the training patterns but struggles with the sharp rally it hasn't seen before. Stock markets are hard to predict.
+
 <img width="1035" height="298" alt="image" src="https://github.com/user-attachments/assets/46cab97d-ff48-44df-9f03-aa5c9d228316" />
 <img width="1115" height="364" alt="image" src="https://github.com/user-attachments/assets/f683bd4e-d001-4e13-b8b5-f94a6c70e87e" />
 <img width="1112" height="314" alt="image" src="https://github.com/user-attachments/assets/11edde03-a008-4ba7-b87e-badbddd40da1" />
@@ -84,11 +91,15 @@ Design and implement a system that:
 <img width="1036" height="368" alt="image" src="https://github.com/user-attachments/assets/15cecc3f-3846-49f4-874f-c5f3db03f7e2" />
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9074cc46-1c7f-4bd5-9bdc-b085f7c5cdc5" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ebc581c1-50de-4d42-8d68-2e08ed3cdc69" />
-<img width="1008" height="578" alt="image" src="https://github.com/user-attachments/assets/46b2146e-2b8d-4443-8308-098f6dc8224f" />
-<img width="955" height="570" alt="image" src="https://github.com/user-attachments/assets/2ea82d6b-9856-46a2-9911-d8eeacd67305" />
-<img width="1012" height="380" alt="image" src="https://github.com/user-attachments/assets/ebdfc0eb-545c-4e37-9dde-bfa0eae216a3" />
-<img width="1012" height="341" alt="image" src="https://github.com/user-attachments/assets/fc3e61b8-7d4e-441f-86f0-2dd4f2ee517e" />
+<img width="944" height="459" alt="image" src="https://github.com/user-attachments/assets/b465fede-1d77-4cd4-8e3a-608795ff8615" />
+<img width="944" height="184" alt="image" src="https://github.com/user-attachments/assets/5abe5e05-65fe-4a46-96a6-80df1621fc99" />
+<img width="944" height="145" alt="image" src="https://github.com/user-attachments/assets/d33fafae-210f-4aa3-916e-e3a0b066e074" />
+<img width="944" height="184" alt="image" src="https://github.com/user-attachments/assets/d94b142e-51e9-4650-a6b3-ea27858e6cc3" />
+<img width="944" height="328" alt="image" src="https://github.com/user-attachments/assets/be2d5307-6d8d-444a-9589-307f27ec977d" />
+<img width="944" height="291" alt="image" src="https://github.com/user-attachments/assets/a2d3f18a-e178-4c88-b663-5aff1b7307e6" />
+
+
+
 
 
 ---
