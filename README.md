@@ -71,6 +71,22 @@ Design and implement a system that:
 ### Results
 
 <img width="1040" height="297" alt="image" src="https://github.com/user-attachments/assets/8b7f5243-a59a-4f96-af62-dd615d733ba9" />
+<img width="1038" height="304" alt="image" src="https://github.com/user-attachments/assets/401564ea-4f8e-4999-8962-13e160278ce0" />
+<img width="1035" height="298" alt="image" src="https://github.com/user-attachments/assets/46cab97d-ff48-44df-9f03-aa5c9d228316" />
+<img width="1115" height="364" alt="image" src="https://github.com/user-attachments/assets/f683bd4e-d001-4e13-b8b5-f94a6c70e87e" />
+<img width="1112" height="314" alt="image" src="https://github.com/user-attachments/assets/11edde03-a008-4ba7-b87e-badbddd40da1" />
+<img width="1108" height="315" alt="image" src="https://github.com/user-attachments/assets/32a471dd-0ec1-487c-9b3c-17b7477d39fc" />
+<img width="1109" height="321" alt="image" src="https://github.com/user-attachments/assets/3c8e1213-303c-425b-a961-5b0f33280c39" />
+<img width="1113" height="307" alt="image" src="https://github.com/user-attachments/assets/0967ec26-7886-4450-a526-58dd0318beb6" />
+<img width="847" height="287" alt="image" src="https://github.com/user-attachments/assets/519b5e58-392b-4158-b80e-7ab8abb2f6ef" />
+<img width="1036" height="368" alt="image" src="https://github.com/user-attachments/assets/15cecc3f-3846-49f4-874f-c5f3db03f7e2" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9074cc46-1c7f-4bd5-9bdc-b085f7c5cdc5" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ebc581c1-50de-4d42-8d68-2e08ed3cdc69" />
+<img width="1008" height="578" alt="image" src="https://github.com/user-attachments/assets/46b2146e-2b8d-4443-8308-098f6dc8224f" />
+<img width="955" height="570" alt="image" src="https://github.com/user-attachments/assets/2ea82d6b-9856-46a2-9911-d8eeacd67305" />
+<img width="1012" height="380" alt="image" src="https://github.com/user-attachments/assets/ebdfc0eb-545c-4e37-9dde-bfa0eae216a3" />
+<img width="1012" height="341" alt="image" src="https://github.com/user-attachments/assets/fc3e61b8-7d4e-441f-86f0-2dd4f2ee517e" />
 
 
 ---
