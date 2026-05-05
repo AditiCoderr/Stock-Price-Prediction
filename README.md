@@ -97,14 +97,15 @@ The shaded purple region between them is the prediction error band — the wider
 <br>
 <img width="1112" height="314" alt="image" src="https://github.com/user-attachments/assets/11edde03-a008-4ba7-b87e-badbddd40da1" />
 <br>
-
+The predicted line (blue dashed) tracks the actual price (gray) extremely closely across all 700 training days. The shaded error band is very thin throughout — the model learned the training patterns very well. MAPE of 2.73% is excellent — on average the model was only ₹30 off on a stock trading around ₹1000–1300.
+<br>
 <img width="1108" height="315" alt="image" src="https://github.com/user-attachments/assets/32a471dd-0ec1-487c-9b3c-17b7477d39fc" />
 <br>
-The predicted line (blue dashed) tracks the actual price (gray) extremely closely across all 700 training days. The shaded error band is very thin throughout — the model learned the training patterns very well. MAPE of 2.73% is excellent — on average the model was only ₹30 off on a stock trading around ₹1000–1300.
+The gap between actual and predicted is noticeably wider than training. The orange predicted line is consistently below the actual price — the model underestimates the sharp rally to ₹1600. MAPE of 5.55% is still acceptable for stock prediction — under 10% is generally considered good. The error band is wider during the ₹1500–₹1600 peak because this price level was rarely seen during training.
 <br>
 <img width="1109" height="321" alt="image" src="https://github.com/user-attachments/assets/3c8e1213-303c-425b-a961-5b0f33280c39" />
 <br>
-The gap between actual and predicted is noticeably wider than training. The orange predicted line is consistently below the actual price — the model underestimates the sharp rally to ₹1600. MAPE of 5.55% is still acceptable for stock prediction — under 10% is generally considered good. The error band is wider during the ₹1500–₹1600 peak because this price level was rarely seen during training.
+MAPE of 2.99% is excellent — better than validation despite being completely unseen data. The predicted line correctly follows the downtrend from ₹1500 to ₹1200. The error band is widest at the start (days 0–40) and narrows significantly after day 40 — the same cold start pattern seen in the previous chart.
 <br>
 <img width="1113" height="307" alt="image" src="https://github.com/user-attachments/assets/0967ec26-7886-4450-a526-58dd0318beb6" />
 <br>
