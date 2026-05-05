@@ -109,11 +109,15 @@ MAPE of 2.99% is excellent — better than validation despite being completely u
 <br>
 <img width="1113" height="307" alt="image" src="https://github.com/user-attachments/assets/0967ec26-7886-4450-a526-58dd0318beb6" />
 <br>
-- Residuals over Time<br>
+
+
+Residuals over Time<br>
 Residual = Actual price − Predicted price.<br>
 The green shaded area (above zero) means the model under-predicted — actual was higher than predicted. The orange/red shaded area (below zero) means the model over-predicted — actual was lower than predicted.
 <br>
-- Residual Distribution<br>
+
+
+Residual Distribution<br>
 This histogram shows how frequently each error size occurred.<br>
 
 Mean = ₹13.69 — the model has a slight positive bias, on average under-predicting by ₹13.69 <br>
@@ -121,7 +125,9 @@ Std = ₹52.06 — most errors fall within ±₹52 of the actual price <br>
 The distribution is slightly right-skewed — more large positive errors than large negative ones, confirming the under-prediction at the start <br>
 The bulk of predictions are clustered near zero error
 <br>
-- Actual vs Predicted Scatter (R² = 0.7317) <br>
+
+
+Actual vs Predicted Scatter (R² = 0.7317) <br>
 Each dot is one trading day — x-axis is the actual price, y-axis is what the model predicted. The red dashed line is the perfect prediction line — if the model was perfect, every dot would sit exactly on it. <br>
 R² = 0.7317 — the model explains 73.17% of price variance on test data 
 <br>
