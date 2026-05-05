@@ -307,6 +307,8 @@ venv\Scripts\activate       # Windows
 # Install dependencies
 pip install -r requirements.txt
 
+# Run google colab and add the downloaded files to the models folder of the project folder
+
 # Run app
 streamlit run app.py
 ```
