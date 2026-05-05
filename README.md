@@ -295,7 +295,7 @@ stock_prediction_app/<br>
 ```bash
 # Clone repository
 git clone https://github.com/AditiCoderr/Stock-Price-Prediction
-cd stock-prediction-app
+cd Stock-Price-Prediction
 
 # Create virtual environment
 python -m venv venv
